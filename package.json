@@ -1,12 +1,12 @@
 {
-  "name": "blockchainbox-node",
+  "name": "proofoftransaction-core",
   "version": "0.0.1",
-  "description": "A node server to provide Web3 service",
+  "description": "A server to provide Web3 service",
   "author": "Phyrex Tsai",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/PhyrexTsai/blockchainbox-node.git"
+    "url": "https://github.com/ProofOfTransaction/proofoftransaction-core.git"
   },
   "scripts": {
     "start": "node ./bin/www"
