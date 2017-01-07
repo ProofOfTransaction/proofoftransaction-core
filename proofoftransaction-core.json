@@ -1,6 +1,6 @@
 {
   apps : [{
-    name       : "blockchainbox-node",
+    name       : "proofoftransaction-core",
     script     : "./bin/www",
     watch       : true,
     env: {
@@ -12,7 +12,7 @@
       "KAFKA_PORT"        : 9092
     }
   },{
-    name       : "blockchainbox-consumer-insertQueue",
+    name       : "proofoftransaction-consumer-insertQueue",
     script     : "./kafka/consumer/insertQueueConsumer.js",
     watch       : true,
     env: {
@@ -24,7 +24,7 @@
       "KAFKA_PORT"        : 9092
     }
   },{
-    name       : "blockchainbox-consumer-eventListener",
+    name       : "proofoftransaction-consumer-eventListener",
     script     : "./kafka/consumer/eventListenerConsumer.js",
     watch       : true,
     env: {

@@ -38,6 +38,6 @@ jspm_packages
 
 # Intellij
 .idea
-blockchainbox-node.iml
+*.iml
 
 .bash_profile

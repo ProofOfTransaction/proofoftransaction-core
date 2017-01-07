@@ -1,3 +1,3 @@
-pm2 stop blockchainbox-node
-pm2 stop blockchainbox-consumer-insertQueue
-pm2 stop blockchainbox-consumer-eventListener
+pm2 stop proofoftransaction-core
+pm2 stop proofoftransaction-consumer-insertQueue
+pm2 stop proofoftransaction-consumer-eventListener

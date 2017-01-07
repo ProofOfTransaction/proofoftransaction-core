@@ -1,5 +1,5 @@
-# Blockchainbox-node
-  
+# Proof of transaction
+
 Write by node.js, handle the ethereum web3.js.
 Contains:  
 - Kafka consumer
@@ -30,8 +30,8 @@ geth --networkid 16888 --port 30303 --nodiscover --maxpeers 25 --nat "any" --rpc
 
 ### clone repository
 ```
-git clone https://github.com/PhyrexTsai/blockchainbox-node.git
-cd blockchainbox-node
+git clone https://github.com/ProofOfTransaction/proofoftransaction-core.git
+cd proofoftransaction-core
 
 -- start service with pm2
 ./start.sh
